@@ -19,3 +19,4 @@ while playerGuess != randNum:
     if playerGuess == randNum:
         guesses + 1
         print(f"You guessed the correct number in {guesses} guesses!")
+        randNum = random.randint(1, 9)
