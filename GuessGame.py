@@ -16,4 +16,5 @@ if playerGuess > randNum:
 
 if playerGuess == randNum:
     guesses + 1
-    print("You guess the correct number!")
+    print(f"You guess the correct number in {guesses} guesses!")
+
