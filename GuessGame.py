@@ -4,7 +4,7 @@ randNum = random.randint(1, 9)
 
 guesses = 0
 
-playerGuess = int(input("Guess the random numer: "))
+playerGuess = int(input("Guess the random number: "))
 
 while playerGuess != randNum:
 
@@ -19,4 +19,6 @@ while playerGuess != randNum:
     if playerGuess == randNum:
         guesses + 1
         print(f"You guessed the correct number in {guesses} guesses!")
+
         randNum = random.randint(1, 9)
+        playerGuess = int(input("Guess the random number: "))
