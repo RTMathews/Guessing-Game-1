@@ -14,7 +14,7 @@ while playerGuess != randNum:
 
     if playerGuess > randNum:
         guesses + 1
-        print("Too high! Try again: ")
+        playerGuess = int(input("Too high! Try again: "))
 
     if playerGuess == randNum:
         guesses + 1
